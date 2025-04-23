@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Tetris Room</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="login">
+    <h1>Tetris Room</h1>
+    <input type="text" id="username" placeholder="ユーザー名">
+    <input type="text" id="roomID" placeholder="ルームID">
+    <button id="hostBtn">ホストとして開始</button>
+    <button id="joinBtn">ルームに参加</button>
+  </div>
+  <canvas id="gameCanvas" width="320" height="640" style="display:none;"></canvas>
+  <script src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
